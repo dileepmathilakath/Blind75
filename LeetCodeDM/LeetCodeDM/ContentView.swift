@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var twoSums = Solution()
+    var buySellStocks = BuyAndSellStockSolution()
     var body: some View {
         VStack {
-            let solution = twoSums.twoSum([2,7,1,5], 9)
-            Text("solution \(solution[0])")
+            let solution = buySellStocks.maxProfit([7,1,5,3,6,4])
+            Text("solution \(solution)")
         }
         .padding()
     }
