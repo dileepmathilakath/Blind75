@@ -16,7 +16,6 @@
  Input: prices = [7,6,4,3,1]
  Output: 0
  Explanation: In this case, no transactions are done and the max profit = 0.
-  
 
  Constraints:
 
@@ -29,9 +28,8 @@
 
 import Foundation
 
-public class BuyAndSellStockSolution {
-    public init() {}
-    public func maxProfit(_ prices: [Int]) -> Int {
+extension Solution {
+    public func BuyAndSellStockMaxProfit(_ prices: [Int]) -> Int {
         var left = 0
         var right = 1
         var maxProfit = 0
@@ -49,6 +47,9 @@ public class BuyAndSellStockSolution {
 
 /*
  Notes -
- Use two pointes, Right and Left. Keep sliding and find the max value,
+ Use two pointees, Right and Left. Keep sliding and find the max value,
  If left is greater than right, reset left to right
+ 
+ Guidance -
+ find local min and search for local max, sliding window;
  */

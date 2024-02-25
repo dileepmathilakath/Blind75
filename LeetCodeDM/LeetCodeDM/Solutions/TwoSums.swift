@@ -31,8 +31,7 @@ Only one valid answer exists.
 
 import Foundation
 
-public class Solution {
-    public init() {}
+extension Solution {
     public func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var twoSumIndexes = [Int: Int]()
         for (index, value) in nums.enumerated() {
@@ -49,4 +48,7 @@ public class Solution {
 
 /*
  Notes: - Use hash map to save the next sum index, and parse through the Array
+ 
+ Guidance - use hash map to instantly check for difference value, map will add index of last occurrence of a num, don’t use same element twice;
  */
+

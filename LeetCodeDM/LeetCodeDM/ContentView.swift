@@ -9,14 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var buySellStocks = BuyAndSellStockSolution()
+    var solution = Solution()
     var body: some View {
         VStack {
-            let solution = buySellStocks.maxProfit([7,1,5,3,6,4])
-            Text("solution \(solution)")
+            let answer = solution.containsDuplicate([7,1,5,3,6,4])
+            Text("Soltion: \(String(answer))")
         }
         .padding()
     }
+}
+
+public class Solution {
+    public init() {}
 }
 
 #Preview {
