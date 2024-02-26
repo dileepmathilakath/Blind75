@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8227AB2C2B8B2AA100B230AF /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227AB2B2B8B2AA100B230AF /* ContainsDuplicate.swift */; };
+		8227AB2F2B8B378900B230AF /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227AB2E2B8B378900B230AF /* Solution.swift */; };
+		8227AB312B8B37CE00B230AF /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227AB302B8B37CE00B230AF /* ProductExceptSelf.swift */; };
 		82C66DE32B6BD70E00A29CD9 /* BuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C66DE22B6BD70E00A29CD9 /* BuyAndSellStock.swift */; };
 		82D301E82B63920E0014BE38 /* LeetCodeDMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D301E72B63920E0014BE38 /* LeetCodeDMApp.swift */; };
 		82D301EA2B63920E0014BE38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D301E92B63920E0014BE38 /* ContentView.swift */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		8227AB2B2B8B2AA100B230AF /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		8227AB2E2B8B378900B230AF /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		8227AB302B8B37CE00B230AF /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
 		82C66DE22B6BD70E00A29CD9 /* BuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAndSellStock.swift; sourceTree = "<group>"; };
 		82D301E42B63920E0014BE38 /* LeetCodeDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D301E72B63920E0014BE38 /* LeetCodeDMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeDMApp.swift; sourceTree = "<group>"; };
@@ -77,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8227AB2D2B8B376600B230AF /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				82EDD94A2B63960F00FC38FD /* TwoSums.swift */,
+				82C66DE22B6BD70E00A29CD9 /* BuyAndSellStock.swift */,
+				8227AB2B2B8B2AA100B230AF /* ContainsDuplicate.swift */,
+				8227AB302B8B37CE00B230AF /* ProductExceptSelf.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
 		82D301DB2B63920E0014BE38 = {
 			isa = PBXGroup;
 			children = (
@@ -137,9 +152,8 @@
 		82F906C92B639254004AF5F6 /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
-				82EDD94A2B63960F00FC38FD /* TwoSums.swift */,
-				82C66DE22B6BD70E00A29CD9 /* BuyAndSellStock.swift */,
-				8227AB2B2B8B2AA100B230AF /* ContainsDuplicate.swift */,
+				8227AB2D2B8B376600B230AF /* Arrays */,
+				8227AB2E2B8B378900B230AF /* Solution.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -275,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82EDD94B2B63960F00FC38FD /* TwoSums.swift in Sources */,
+				8227AB2F2B8B378900B230AF /* Solution.swift in Sources */,
+				8227AB312B8B37CE00B230AF /* ProductExceptSelf.swift in Sources */,
 				82C66DE32B6BD70E00A29CD9 /* BuyAndSellStock.swift in Sources */,
 				8227AB2C2B8B2AA100B230AF /* ContainsDuplicate.swift in Sources */,
 				82D301EA2B63920E0014BE38 /* ContentView.swift in Sources */,

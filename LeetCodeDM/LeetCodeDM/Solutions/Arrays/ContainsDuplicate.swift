@@ -21,7 +21,7 @@
  1 <= nums.length <= 105
  -109 <= nums[i] <= 109
  
- URL: https://leetcode.com/problems/contains-duplicate/description/
+ URL: https://leetcode.com/problems/contains-duplicate/
  Author - https://leetcode.com/coderdm/
  */
 
