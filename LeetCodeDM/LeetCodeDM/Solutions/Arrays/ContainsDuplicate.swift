@@ -30,12 +30,12 @@ import Foundation
 
 extension Solution {
     public func containsDuplicate(_ nums: [Int]) -> Bool {
-        var numsSet = [Int]()
+        var numsSet = Set<Int>()
         for num in nums {
             if numsSet.contains(num) {
                 return true
             }
-            numsSet.append(num)
+            numsSet.insert(num)
         }
         return false
     }
