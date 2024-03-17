@@ -77,6 +77,22 @@ extension Solution {
      The maximum subarray problem can be solved using the divide and conquer method.
      The idea is to divide the array into two halves, then find the maximum subarray sum in the left half, the right half, and the one crossing the midpoint.
      The maximum of these three will be the maximum subarray sum.
+     
+     
+     Time complexity is calculated by the below formula
+     T(n) = aT(n/b) + f(n)
+     where:
+
+     n is the size of the problem.
+     a is the number of subproblems in the recursion.
+     n/b is the size of each subproblem. All subproblems are assumed to have the same size.
+     f(n) is the cost of the work done outside the recursive calls, which includes the cost of dividing the problem and the cost of merging the solutions.
+     
+     Here, a = 2 (as it divides the problem into 2 subproblems), b = 2 (each subproblem is half the size of the original problem), and f(n) = n (the time to merge the subproblems).
+
+     T(n) = 2T(n/2) + n
+
+     According to the Master Theorem, this resolves to a time complexity of O(n log n).
      */
     
     func maxSubArrayDQ(_ nums: [Int]) -> Int {

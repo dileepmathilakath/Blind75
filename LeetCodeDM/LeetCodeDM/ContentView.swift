@@ -12,7 +12,7 @@ struct ContentView: View {
     var solution = Solution()
     var body: some View {
         VStack {
-            let answer = solution.maxSubArrayDQ([-2,1,-3,4,-1,2,1,-5,4])
+            let answer = solution.maxProduct([2,3,-2,4])
             Text("Solution: \(answer))")
         }
         .padding()
