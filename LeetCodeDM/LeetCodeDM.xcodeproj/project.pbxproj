@@ -12,6 +12,7 @@
 		8227AB312B8B37CE00B230AF /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227AB302B8B37CE00B230AF /* ProductExceptSelf.swift */; };
 		82A6A8BD2BA5733300F80562 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6A8BC2BA5733300F80562 /* MaximumSubarray.swift */; };
 		82A6A8BF2BA6BB0A00F80562 /* MaxProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6A8BE2BA6BB0A00F80562 /* MaxProduct.swift */; };
+		82A6A8C12BA72C2D00F80562 /* FindMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6A8C02BA72C2D00F80562 /* FindMin.swift */; };
 		82C66DE32B6BD70E00A29CD9 /* BuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C66DE22B6BD70E00A29CD9 /* BuyAndSellStock.swift */; };
 		82D301E82B63920E0014BE38 /* LeetCodeDMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D301E72B63920E0014BE38 /* LeetCodeDMApp.swift */; };
 		82D301EA2B63920E0014BE38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D301E92B63920E0014BE38 /* ContentView.swift */; };
@@ -46,6 +47,7 @@
 		8227AB302B8B37CE00B230AF /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
 		82A6A8BC2BA5733300F80562 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		82A6A8BE2BA6BB0A00F80562 /* MaxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProduct.swift; sourceTree = "<group>"; };
+		82A6A8C02BA72C2D00F80562 /* FindMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMin.swift; sourceTree = "<group>"; };
 		82C66DE22B6BD70E00A29CD9 /* BuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAndSellStock.swift; sourceTree = "<group>"; };
 		82D301E42B63920E0014BE38 /* LeetCodeDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D301E72B63920E0014BE38 /* LeetCodeDMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeDMApp.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				8227AB302B8B37CE00B230AF /* ProductExceptSelf.swift */,
 				82A6A8BC2BA5733300F80562 /* MaximumSubarray.swift */,
 				82A6A8BE2BA6BB0A00F80562 /* MaxProduct.swift */,
+				82A6A8C02BA72C2D00F80562 /* FindMin.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82EDD94B2B63960F00FC38FD /* TwoSums.swift in Sources */,
+				82A6A8C12BA72C2D00F80562 /* FindMin.swift in Sources */,
 				8227AB2F2B8B378900B230AF /* Solution.swift in Sources */,
 				8227AB312B8B37CE00B230AF /* ProductExceptSelf.swift in Sources */,
 				82C66DE32B6BD70E00A29CD9 /* BuyAndSellStock.swift in Sources */,

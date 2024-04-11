@@ -12,7 +12,7 @@ struct ContentView: View {
     var solution = Solution()
     var body: some View {
         VStack {
-            let answer = solution.maxProduct([2,3,-2,4])
+            let answer = solution.findMin([2,3,1])
             Text("Solution: \(answer))")
         }
         .padding()

@@ -50,12 +50,19 @@ extension Solution {
         var cMin = 1
         var result = nums[0]
         for num in nums {
-            let temp = cMax * num
-            cMax = max(temp, cMin * num, num)
-            cMin = min(temp, cMin * num, num)
+            let cMaxTemp = cMax * num
+            let cMinTemp = cMin * num
+            cMax = max(cMaxTemp, cMinTemp, num)
+            cMin = min(cMaxTemp, cMinTemp, num)
             result = max(result, cMax)
-            print(cMax, cMin, result )
+            print(cMax, cMin, result)
         }
         return result
     }
 }
+
+/*
+Notes -
+Guidance:
+dp: compute max and max-abs-val for each prefix subarr;
+*/
